@@ -21,3 +21,6 @@ Exploratory analysis and creation of the best classification model will be descr
 7. The test set was classified and the main metric techniques were used to determine the best classifier. There was also the confusion matrix of the classifiers.
 
 ## Analysis of results 
+
+According to the ROC metric, the best classification model was made by the adaboost algorithm.  
+but if we analyze from the confusion matrix the best classification model was the random forest algorithm.
