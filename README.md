@@ -23,4 +23,5 @@ Exploratory analysis and creation of the best classification model will be descr
 ## Analysis of results 
 
 According to the ROC metric, the best classification model was made by the adaboost algorithm.  
-but if we analyze from the confusion matrix the best classification model was the random forest algorithm.
+but if we analyze from the confusion matrix the best classification model was the random forest algorithm.  
+This divergence happens because the difference in the ROC metric between the best score algorithms is 1% or 2%. Therefore, considering the standard deviation in the metric in these two algorithms, it can't say which one is the best by the ROC metric. For this, it is necessary to evaluate the confusion matrix, it identifies that the random forest algorithm was more correct.
