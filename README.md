@@ -14,6 +14,7 @@ Exploratory analysis and creation of the best classification model will be descr
 
 1. The dataset from hd was loaded. Because of the file size we could not upload it to github.
 2. The labels were visualized and the imbalance was noticed. The label "non-fraud" was 99.83% of the dataset, and the label "fraud" was 0.17% of the dataset. This imbalance may result in overfitting and a bad classifier.
+![Imbalance Class](https://github.com/Jaco-Julio/FraudDetection/blob/master/img/imbalance_class.png "Imbalance Class")
 3. The dataset was divided into training set and test set.
 4. The balance was done with the SMOTE technique. This technique creates synthetic instances at random just like labels. The balance was done in 3 different ways by changing the parameters in SMOTE.
 5. The Logistic Regression, AdaBoosting, Random Forest and K Nearest Neighbors (KNN) algorithms were chosen for classification.
