@@ -20,7 +20,7 @@ Exploratory analysis and creation of the best classification model will be descr
 ![Balance Class](https://github.com/Jaco-Julio/FraudDetection/blob/master/img/balance1.png "Balance Class")
 5. The Logistic Regression, AdaBoosting, Random Forest and K Nearest Neighbors (KNN) algorithms were chosen for classification.
 6. The cross_val_score algorithm was used to identify the accuracy of the algorithms in the training sets. It was identified that in the original training set the algorithms ended up generating overfitting.
-| **Algorithm** | **Accuracy** |
+| Algorithm | Accuracy |
 |:-------------:|:--------:|
 | Logistic Regression | 99,89% |
 | AdaBoosting | 99,92% |
@@ -31,7 +31,7 @@ Exploratory analysis and creation of the best classification model will be descr
 ## Analysis of results 
 
 According to the ROC metric, the best classification model was made by the adaboost algorithm.  
-| **Algorithm** | **ROC** |
+| Algorithm | ROC |
 |:-------------:|:--------:|
 | Logistic Regression | 91,18% |
 | AdaBoosting | 92,04% |
