@@ -38,8 +38,38 @@ According to the ROC metric, the best classification model was made by the adabo
 | :-------------: | :--------: |
 | Logistic Regression | 91,18% |
 | AdaBoosting | 92,04% |
-| Random Forest | 89,24% |
+| Random Forest | 90,35% |
 | K Nearest Neighbors (KNN) | 68,34% |
 
 but if we analyze from the confusion matrix the best classification model was the random forest algorithm.  
-This divergence happens because the difference in the ROC metric between the best score algorithms is 1% or 2%. Therefore, considering the margin of error in the metric in these two algorithms, it can't say which one is the best by the ROC metric. For this, it is necessary to evaluate the confusion matrix, it identifies that the random forest algorithm was more correct.
+
+Confusion Matrix of Logistic Regression:
+
+| ----------- | No Fraud | Fraud |
+| :----------: | :---------: | :--------: |
+| No Fraud | 84169 | 1139 |
+| Fraud | 22 | 113 |
+
+Confusion Matrix of AdaBoosting:
+
+| ----------- | No Fraud | Fraud |
+| :----------: | :---------: | :--------: |
+| No Fraud | 84379 | 929 |
+| Fraud | 20 | 115 |
+
+Confusion Matrix of Random Forest: 
+
+| ----------- | No Fraud | Fraud |
+| :----------: | :---------: | :--------: |
+| No Fraud | 85288 | 20 |
+| Fraud | 26 | 109 |
+
+Confusion Matrix of KNN:
+
+| ----------- | No Fraud | Fraud |
+| :----------: | :---------: | :--------: |
+| No Fraud | 80590 | 4718 |
+| Fraud | 78 | 57 |
+
+
+This divergence happens because the difference in the ROC metric between the best score algorithms is 1% or 2%. Therefore, considering the margin of error in the metric in these two algorithms, it can't say which one is the best by the ROC metric. For this, it is necessary to evaluate the confusion matrix, it identifies that the random forest algorithm was more correct, because the random forest algorithm results in more True Positive and True Negative,  False Positive and False Negative than AdaBoosting algoritm.
