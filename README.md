@@ -72,4 +72,4 @@ Confusion Matrix of KNN:
 | **Fraud** | 78 | 57 |
 
 
-This divergence happens because the difference in the ROC metric between the best score algorithms is 1% or 2%. Therefore, considering the margin of error in the metric in these two algorithms, it can't say which one is the best by the ROC metric. For this, it is necessary to evaluate the confusion matrix, it identifies that the random forest algorithm was more correct, because the random forest algorithm results in more True Positive and True Negative,  False Positive and False Negative than AdaBoosting algoritm.
+This divergence happens because the difference in the ROC metric between the best score algorithms is 1% or 2%. Therefore, considering the margin of error in the metric in these two algorithms, it can't say which one is the best by the ROC metric. For this, it is necessary to evaluate the confusion matrix, it identifies that the random forest algorithm was more correct, because the random forest algorithm results in more True Positive and True Negative, and less False Positive and False Negative than AdaBoosting algoritm.
