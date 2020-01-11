@@ -47,29 +47,29 @@ Confusion Matrix of Logistic Regression:
 
 | ----------- | No Fraud | Fraud |
 | :----------: | :---------: | :--------: |
-| No Fraud | 84169 | 1139 |
-| Fraud | 22 | 113 |
+| **No Fraud** | 84169 | 1139 |
+| **Fraud** | 22 | 113 |
 
 Confusion Matrix of AdaBoosting:
 
 | ----------- | No Fraud | Fraud |
 | :----------: | :---------: | :--------: |
-| No Fraud | 84379 | 929 |
-| Fraud | 20 | 115 |
+| **No Fraud** | 84379 | 929 |
+| **Fraud** | 20 | 115 |
 
 Confusion Matrix of Random Forest: 
 
 | ----------- | No Fraud | Fraud |
 | :----------: | :---------: | :--------: |
-| No Fraud | 85288 | 20 |
-| Fraud | 26 | 109 |
+| **No Fraud** | 85288 | 20 |
+| **Fraud** | 26 | 109 |
 
 Confusion Matrix of KNN:
 
 | ----------- | No Fraud | Fraud |
 | :----------: | :---------: | :--------: |
-| No Fraud | 80590 | 4718 |
-| Fraud | 78 | 57 |
+| **No Fraud** | 80590 | 4718 |
+| **Fraud** | 78 | 57 |
 
 
 This divergence happens because the difference in the ROC metric between the best score algorithms is 1% or 2%. Therefore, considering the margin of error in the metric in these two algorithms, it can't say which one is the best by the ROC metric. For this, it is necessary to evaluate the confusion matrix, it identifies that the random forest algorithm was more correct, because the random forest algorithm results in more True Positive and True Negative,  False Positive and False Negative than AdaBoosting algoritm.
